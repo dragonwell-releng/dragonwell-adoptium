@@ -1,0 +1,57 @@
+{
+  "releases": [
+    {
+      "release_link": "https://github.com/alibaba/dragonwell8/wiki/%E4%B8%8B%E8%BD%BD%E9%95%9C%E5%83%8F(Mirrors-for-download)",
+      "release_name": "jdk8u345-b01",
+      "last_updated_timestamp": "2022-08-13T17:05:00Z",
+      "binaries": [
+        {
+          "os": "linux",
+          "architecture": "aarch64",
+          "image_type": "jdk",
+          "jvm_impl": "hotspot",
+          "package": {
+            "name": "Alibaba_Dragonwell_Standard_8.12.13_aarch64_linux.tar.gz",
+            "link": "https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.12.13/Alibaba_Dragonwell_Standard_8.12.13_aarch64_linux.tar.gz",
+            "sha265sum": "xxxx",
+            "sha256sum_link": "https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.12.13/Alibaba_Dragonwell_Standard_8.12.13_aarch64_linux.tar.gz.sha256"
+          },
+          "timestamp": "2022-08-13T17:05:00Z",
+          "scm_ref": "jdk8u345-b01",
+          "openjdk_scm_ref": "jdk8u345-b01",
+          "distribution": "dragonwell",
+          "aqavit_results_link": "https://github.com/dragonwell-releng/dragonwell-adoptium/blob/master/AQAvit/8/8u345/dragonwell-standard-jdk-8u345b01-linux-aarch64.tap.zip",
+          "tck_affidavit_link": "xxxx"
+        }, {
+          "os": "linux",
+          "architecture": "x64",
+          "image_type": "jdk",
+          "jvm_impl": "hotspot",
+          "package": {
+            "name": "Alibaba_Dragonwell_Standard_8.12.13_x64_linux.tar.gz",
+            "link": "https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.12.13/Alibaba_Dragonwell_Standard_8.12.13_x64_linux.tar.gz",
+            "sha265sum": "xxxx",
+            "sha256sum_link": "https://dragonwell.oss-cn-shanghai.aliyuncs.com/8.12.13/Alibaba_Dragonwell_Standard_8.12.13_x64_linux.tar.gz.sha256"
+          },
+          "timestamp": "2022-08-13T17:05:00Z",
+          "scm_ref": "jdk8u345-b01",
+          "openjdk_scm_ref": "jdk8u345-b01",
+          "distribution": "dragonwell",
+          "aqavit_results_link": "https://github.com/dragonwell-releng/dragonwell-adoptium/blob/master/AQAvit/8/8u345/dragonwell-standard-jdk-8u345b01-linux-x64.tap.zip",
+          "tck_affidavit_link": "xxxx"
+        }
+      ],
+      "vendor": "alibaba",
+      "openjdk_version_data": {
+        "major": 8,
+        "minor": 0,
+        "security": 345,
+        "patch": null,
+        "pre": null,
+        "build": 01,
+        "optional": null,
+        "openjdk_version": "1.8.0_345-b01"
+      }
+    }
+  ]
+}
