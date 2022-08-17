@@ -48,7 +48,7 @@
         "security": 345,
         "patch": null,
         "pre": null,
-        "build": 01,
+        "build": 1,
         "optional": null,
         "openjdk_version": "1.8.0_345-b01"
       }
