@@ -21,7 +21,7 @@
           "openjdk_scm_ref": "jdk8u345-b01",
           "distribution": "dragonwell",
           "aqavit_results_link": "https://github.com/dragonwell-releng/dragonwell-adoptium/blob/master/AQAvit/8/8u345/dragonwell-standard-jdk-8u345b01-linux-aarch64.tap.zip",
-          "tck_affidavit_link": "https://dragonwell-jdk.io/tck-affidavit"
+          "tck_affidavit_link": "https://dragonwell-jdk.io/#/tck-affidavit"
         }, {
           "os": "linux",
           "architecture": "x64",
@@ -38,7 +38,7 @@
           "openjdk_scm_ref": "jdk8u345-b01",
           "distribution": "dragonwell",
           "aqavit_results_link": "https://github.com/dragonwell-releng/dragonwell-adoptium/blob/master/AQAvit/8/8u345/dragonwell-standard-jdk-8u345b01-linux-x64.tap.zip",
-          "tck_affidavit_link": "https://dragonwell-jdk.io/tck-affidavit"
+          "tck_affidavit_link": "https://dragonwell-jdk.io/#/tck-affidavit"
         }
       ],
       "vendor": "alibaba",
