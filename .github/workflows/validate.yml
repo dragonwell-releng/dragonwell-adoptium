@@ -9,6 +9,7 @@ jobs:
   call-adoptium-verifier:
     uses: adoptium/marketplace-data/.github/workflows/validate-data.yml@main
     with:
+      json-path: 'json'
       signature-type: BASE64_ENCODED
       public-key: |
         -----BEGIN PUBLIC KEY-----
