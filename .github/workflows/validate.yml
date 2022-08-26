@@ -1,0 +1,27 @@
+name: Validate Dragonwell Data
+
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  call-adoptium-verifier:
+    uses: adoptium/marketplace-data/.github/workflows/validate-data.yml@main
+    with:
+      signature-type: BASE64_ENCODED
+      public-key: |
+        -----BEGIN PUBLIC KEY-----
+        MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA3Ijgnr3YCY0KyMVvgVmq
+        i3PAkCVw6JaR4n4OlLHr0lSzl2cukUBx6FSM3MnWonbmrXriU7WZyHCbuhe9e1S+
+        9rki7EofuT5cqEzzUT+sHpJxYOEBb0zQSESGSZuQq/RHfauxTCgF+9Yyb3VZwE99
+        4Cj8WZhv3Fchzigb3SBnOcMqnS8D+AcThuwLTCUdZiIXjzIYc/sN/TYdq4+CNRM2
+        xeWlA5CNvy9sw945oYYb6eoa4XAhKhHcs09sygzxQVkPE6xHgAtUuaYf1QwJYUdf
+        6ITAPf7dIEPRu2gaeR5rnHO1jl/G9dmT/ay2FlUzPGQvNqL+8uxyODaU114dOT9i
+        JRT7AJ8XrKQDqU/CCWkPwzZ0vUbwpmsXYWztPve2YdieGWSHxnZzQ8NIiGCltv6A
+        yC/iyhphBgW0iZ+w6A0LSKimAW9Emh2ArDJ0JEPwh+T6d80xeSCLtTptEC/e09UJ
+        nC4EZKTpEn/KzyFLWiFEas4x1uzLGroV1biMHkzxwNhljiEq0TvpeYSzUg46r6NO
+        /eqwQq54bEKDzjbIZtfMdZX3xZGAD9Sr/pHBjKJ80WMYBhzLPhPdzStXaCUC2AGn
+        8oZpdR99t2wIwWLBmDzMjwKRr7KPLoYdFyP5hi2zP1ljTHsmuQbG92B4ySnAT/Bm
+        vXIShl3XzS34soZEIZsxtaMCAwEAAQ==
+        -----END PUBLIC KEY-----
