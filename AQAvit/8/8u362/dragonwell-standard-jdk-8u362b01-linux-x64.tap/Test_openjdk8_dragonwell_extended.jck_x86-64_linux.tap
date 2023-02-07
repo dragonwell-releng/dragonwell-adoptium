@@ -1,0 +1,535 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_362"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Extended Edition 8.14.15) (build 1.8.0_362-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Extended Edition 8.14.15) (build 25.362-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_362"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="amd64"
+# SOURCE=".:git:73558dec0896+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:3532ac9cf4b354ac6cfd9c2c9ab1b71a1075e5c4"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/alibaba/dragonwell8.git"
+# FULL_VERSION="1.8.0_362-b01"
+# SEMANTIC_VERSION="8.0.362+1"
+# BUILD_INFO="OS: Linux Version: 4.15.0-187-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.362-b01"
+# IMAGE_TYPE="JDK"
+# 
+#SHA.txt content: 
+# ================================================
+# timestamp: 20230206-144039
+# repo dir: /tmp/tone/run/jck-test/aqa-tests/openj9
+# git repo: 
+#   Fetch URL: git@github.com:eclipse-openj9/openj9.git
+# sha:
+# cd33b0e14e13105fffdc341be4b83b0ecec2749f
+# 
+# Timestamp: Mon Feb  6 10:12:00 2023 UTC 
+1..126
+ok 1 - jck-compiler-api-java_rmi_0
+  ---
+    duration_ms: 118707
+  ...
+ok 2 - jck-compiler-api-javax_annotation_0
+  ---
+    duration_ms: 2351
+  ...
+ok 3 - jck-compiler-api-javax_lang_0
+  ---
+    duration_ms: 6036
+  ...
+ok 4 - jck-compiler-api-javax_tools_0
+  ---
+    duration_ms: 1521
+  ...
+ok 5 - jck-compiler-api-signaturetest_0
+  ---
+    duration_ms: 2504
+  ...
+ok 6 - jck-compiler-lang-BINC_0
+  ---
+    duration_ms: 11908
+  ...
+ok 7 - jck-compiler-lang-CLSS-Group1_0
+  ---
+    duration_ms: 8146
+  ...
+ok 8 - jck-compiler-lang-CLSS-Group2_0
+  ---
+    duration_ms: 7888
+  ...
+ok 9 - jck-compiler-lang-CLSS-Group3_0
+  ---
+    duration_ms: 46379
+  ...
+ok 10 - jck-compiler-lang-CLSS-Group4_0
+  ---
+    duration_ms: 46077
+  ...
+ok 11 - jck-compiler-lang-CLSS-Group5_0
+  ---
+    duration_ms: 6098
+  ...
+ok 12 - jck-compiler-lang-CLSS-Group6_0
+  ---
+    duration_ms: 9409
+  ...
+ok 13 - jck-compiler-lang-CLSS-Group7_0
+  ---
+    duration_ms: 7779
+  ...
+ok 14 - jck-compiler-lang-CLSS-Group8_0
+  ---
+    duration_ms: 4871
+  ...
+ok 15 - jck-compiler-lang-CLSS-Group9_0
+  ---
+    duration_ms: 5641
+  ...
+ok 16 - jck-compiler-lang-CLSS-Group10_0
+  ---
+    duration_ms: 11024
+  ...
+ok 17 - jck-compiler-lang-CONV_0
+  ---
+    duration_ms: 55145
+  ...
+ok 18 - jck-compiler-lang-EXPR-group1_0
+  ---
+    duration_ms: 7601
+  ...
+ok 19 - jck-compiler-lang-EXPR-group2_0
+  ---
+    duration_ms: 7925
+  ...
+ok 20 - jck-compiler-lang-EXPR-group3_0
+  ---
+    duration_ms: 12692
+  ...
+ok 21 - jck-compiler-lang-EXPR-group4_0
+  ---
+    duration_ms: 10597
+  ...
+ok 22 - jck-compiler-lang-EXPR-group5_0
+  ---
+    duration_ms: 24200
+  ...
+ok 23 - jck-compiler-lang-EXPR-group6_0
+  ---
+    duration_ms: 25882
+  ...
+ok 24 - jck-compiler-lang-EXPR-group7_0
+  ---
+    duration_ms: 10899
+  ...
+ok 25 - jck-compiler-lang-EXPR-group8_0
+  ---
+    duration_ms: 12116
+  ...
+ok 26 - jck-compiler-lang-EXPR-group9_0
+  ---
+    duration_ms: 34836
+  ...
+ok 27 - jck-compiler-lang-EXPR-group10_0
+  ---
+    duration_ms: 28008
+  ...
+ok 28 - jck-compiler-lang-EXPR-group11_0
+  ---
+    duration_ms: 12238
+  ...
+ok 29 - jck-compiler-lang-INTF_0
+  ---
+    duration_ms: 26091
+  ...
+ok 30 - jck-compiler-lang-LMBD_0
+  ---
+    duration_ms: 108622
+  ...
+ok 31 - jck-compiler-lang-ARR_0
+  ---
+    duration_ms: 5227
+  ...
+ok 32 - jck-compiler-lang-DASG_0
+  ---
+    duration_ms: 44153
+  ...
+ok 33 - jck-compiler-lang-EXCP_0
+  ---
+    duration_ms: 5596
+  ...
+ok 34 - jck-compiler-lang-EXEC_0
+  ---
+    duration_ms: 3941
+  ...
+ok 35 - jck-compiler-lang-FP_0
+  ---
+    duration_ms: 15688
+  ...
+ok 36 - jck-compiler-lang-ICLS_0
+  ---
+    duration_ms: 25710
+  ...
+ok 37 - jck-compiler-lang-INFR_0
+  ---
+    duration_ms: 182019
+  ...
+ok 38 - jck-compiler-lang-NAME_0
+  ---
+    duration_ms: 20304
+  ...
+ok 39 - jck-compiler-lang-PKGS_0
+  ---
+    duration_ms: 9388
+  ...
+ok 40 - jck-compiler-lang-THRD_0
+  ---
+    duration_ms: 63845
+  ...
+ok 41 - jck-compiler-lang-TYPE_0
+  ---
+    duration_ms: 23271
+  ...
+ok 42 - jck-compiler-lang-ANNOT_0
+  ---
+    duration_ms: 105234
+  ...
+ok 43 - jck-compiler-lang-LEX_0
+  ---
+    duration_ms: 23494
+  ...
+ok 44 - jck-compiler-lang-STMT_0
+  ---
+    duration_ms: 41650
+  ...
+ok 45 - jck-devtools-xml_schema-boeingData_0
+  ---
+    duration_ms: 2202
+  ...
+ok 46 - jck-devtools-xml_schema-msData-group1_0
+  ---
+    duration_ms: 35800
+  ...
+ok 47 - jck-devtools-xml_schema-msData-group2_0
+  ---
+    duration_ms: 71095
+  ...
+ok 48 - jck-devtools-xml_schema-msData-group3_0
+  ---
+    duration_ms: 112122
+  ...
+ok 49 - jck-devtools-xml_schema-msData-group4_0
+  ---
+    duration_ms: 33863
+  ...
+ok 50 - jck-devtools-xml_schema-nistData_0
+  ---
+    duration_ms: 157040
+  ...
+ok 51 - jck-devtools-xml_schema-sunData_0
+  ---
+    duration_ms: 26513
+  ...
+ok 52 - jck-runtime-lang-ARR_0
+  ---
+    duration_ms: 1654
+  ...
+ok 53 - jck-runtime-lang-DASG_0
+  ---
+    duration_ms: 2687
+  ...
+ok 54 - jck-runtime-lang-EXCP_0
+  ---
+    duration_ms: 1737
+  ...
+ok 55 - jck-runtime-lang-EXEC_0
+  ---
+    duration_ms: 1650
+  ...
+ok 56 - jck-runtime-lang-FP_0
+  ---
+    duration_ms: 3316
+  ...
+ok 57 - jck-runtime-lang-ICLS_0
+  ---
+    duration_ms: 2709
+  ...
+ok 58 - jck-runtime-lang-INFR_0
+  ---
+    duration_ms: 6216
+  ...
+ok 59 - jck-runtime-lang-NAME_0
+  ---
+    duration_ms: 2342
+  ...
+ok 60 - jck-runtime-lang-PKGS_0
+  ---
+    duration_ms: 1881
+  ...
+ok 61 - jck-runtime-lang-THRD_0
+  ---
+    duration_ms: 31699
+  ...
+ok 62 - jck-runtime-lang-TYPE_0
+  ---
+    duration_ms: 2760
+  ...
+ok 63 - jck-runtime-lang-ANNOT_0
+  ---
+    duration_ms: 5951
+  ...
+ok 64 - jck-runtime-lang-LEX_0
+  ---
+    duration_ms: 2689
+  ...
+ok 65 - jck-runtime-lang-STMT_0
+  ---
+    duration_ms: 4777
+  ...
+ok 66 - jck-devtools-jaxws-mapping_0
+  ---
+    duration_ms: 192897
+  ...
+ok 67 - jck-runtime-xml_schema-boeingData_0
+  ---
+    duration_ms: 1445
+  ...
+ok 68 - jck-runtime-xml_schema-msData_0
+  ---
+    duration_ms: 63649
+  ...
+ok 69 - jck-runtime-xml_schema-nistData-atomic_0
+  ---
+    duration_ms: 64374
+  ...
+ok 70 - jck-runtime-xml_schema-nistData-list_0
+  ---
+    duration_ms: 60060
+  ...
+ok 71 - jck-runtime-xml_schema-nistData-union_0
+  ---
+    duration_ms: 4274
+  ...
+ok 72 - jck-runtime-xml_schema-sunData_0
+  ---
+    duration_ms: 8592
+  ...
+ok 73 - jck-devtools-java2schema-CustomizedMapping_0
+  ---
+    duration_ms: 12637
+  ...
+ok 74 - jck-devtools-java2schema-DefaultMapping_0
+  ---
+    duration_ms: 1342
+  ...
+ok 75 - jck-devtools-schema_bind-bind_class_0
+  ---
+    duration_ms: 2072
+  ...
+ok 76 - jck-devtools-schema_bind-bind_dom_0
+  ---
+    duration_ms: 2032
+  ...
+ok 77 - jck-devtools-schema_bind-bind_factoryMethod_0
+  ---
+    duration_ms: 1954
+  ...
+ok 78 - jck-devtools-schema_bind-bind_globalBindings_0
+  ---
+    duration_ms: 2518
+  ...
+ok 79 - jck-devtools-schema_bind-bind_inlineBinaryData_0
+  ---
+    duration_ms: 1749
+  ...
+ok 80 - jck-devtools-schema_bind-bind_javaType_0
+  ---
+    duration_ms: 1960
+  ...
+ok 81 - jck-devtools-schema_bind-bind_property_0
+  ---
+    duration_ms: 2201
+  ...
+ok 82 - jck-devtools-schema_bind-bind_schemaBindings_0
+  ---
+    duration_ms: 2045
+  ...
+ok 83 - jck_custom_0
+  ---
+    duration_ms: 1596
+  ...
+ok 84 - jck-runtime-api-java_applet_0
+  ---
+    duration_ms: 6917
+  ...
+ok 85 - jck-runtime-api-java_awt_0
+  ---
+    duration_ms: 2859356
+  ...
+ok 86 - jck-runtime-api-java_beans_0
+  ---
+    duration_ms: 3076
+  ...
+ok 87 - jck-runtime-api-java_io_0
+  ---
+    duration_ms: 165371
+  ...
+ok 88 - jck-runtime-api-java_lang_0
+  ---
+    duration_ms: 159688
+  ...
+ok 89 - jck-runtime-api-java_math_0
+  ---
+    duration_ms: 1771
+  ...
+ok 90 - jck-runtime-api-java_rmi_0
+  ---
+    duration_ms: 1733172
+  ...
+ok 91 - jck-runtime-api-java_security_0
+  ---
+    duration_ms: 5567
+  ...
+ok 92 - jck-runtime-api-java_sql_0
+  ---
+    duration_ms: 2278
+  ...
+ok 93 - jck-runtime-api-java_text_0
+  ---
+    duration_ms: 2753
+  ...
+ok 94 - jck-runtime-api-java_time_0
+  ---
+    duration_ms: 4828
+  ...
+ok 95 - jck-runtime-api-java_util_0
+  ---
+    duration_ms: 122362
+  ...
+ok 96 - jck-runtime-api-javax_accessibility_0
+  ---
+    duration_ms: 1914
+  ...
+ok 97 - jck-runtime-api-javax_activation_0
+  ---
+    duration_ms: 65623
+  ...
+ok 98 - jck-runtime-api-javax_activity_0
+  ---
+    duration_ms: 1245
+  ...
+ok 99 - jck-runtime-api-javax_annotation_0
+  ---
+    duration_ms: 1356
+  ...
+ok 100 - jck-runtime-api-javax_crypto_0
+  ---
+    duration_ms: 3603
+  ...
+ok 101 - jck-runtime-api-javax_imageio_0
+  ---
+    duration_ms: 52935
+  ...
+ok 102 - jck-runtime-api-javax_lang_0
+  ---
+    duration_ms: 1472
+  ...
+ok 103 - jck-runtime-api-javax_management_0
+  ---
+    duration_ms: 221570
+  ...
+ok 104 - jck-runtime-api-javax_naming_0
+  ---
+    duration_ms: 8550
+  ...
+ok 105 - jck-runtime-api-javax_net_0
+  ---
+    duration_ms: 472483
+  ...
+ok 106 - jck-runtime-api-javax_print_0
+  ---
+    duration_ms: 8576
+  ...
+ok 107 - jck-runtime-api-javax_rmi_0
+  ---
+    duration_ms: 35038
+  ...
+ok 108 - jck-runtime-api-javax_script_0
+  ---
+    duration_ms: 1443
+  ...
+ok 109 - jck-runtime-api-javax_sound_0
+  ---
+    duration_ms: 3382
+  ...
+ok 110 - jck-runtime-api-javax_sql_0
+  ---
+    duration_ms: 2136
+  ...
+ok 111 - jck-runtime-api-javax_swing_0
+  ---
+    duration_ms: 2014937
+  ...
+ok 112 - jck-runtime-api-javax_tools_0
+  ---
+    duration_ms: 1805
+  ...
+ok 113 - jck-runtime-api-javax_transaction_0
+  ---
+    duration_ms: 1408
+  ...
+ok 114 - jck-runtime-api-javax_xml_0
+  ---
+    duration_ms: 1873411
+  ...
+ok 115 - jck-runtime-api-org_omg_0
+  ---
+    duration_ms: 8933
+  ...
+ok 116 - jck-runtime-api-org_w3c_0
+  ---
+    duration_ms: 22194
+  ...
+ok 117 - jck-runtime-api-org_xml_0
+  ---
+    duration_ms: 2162
+  ...
+ok 118 - jck-runtime-api-xinclude_0
+  ---
+    duration_ms: 2228
+  ...
+ok 119 - jck-runtime-api-xsl_0
+  ---
+    duration_ms: 17088
+  ...
+ok 120 - jck-runtime-vm-cldc_0
+  ---
+    duration_ms: 3754
+  ...
+ok 121 - jck-runtime-vm-concepts_0
+  ---
+    duration_ms: 4702
+  ...
+ok 122 - jck-runtime-vm-fp_0
+  ---
+    duration_ms: 2010
+  ...
+ok 123 - jck-runtime-vm-jni_0
+  ---
+    duration_ms: 8513
+  ...
+ok 124 - jck-runtime-vm-typechecker_0
+  ---
+    duration_ms: 3101
+  ...
+ok 125 - jck-devtools-schema2java-nisttest_0
+  ---
+    duration_ms: 8592
+  ...
+ok 126 - jck-devtools-schema2java-structures_0
+  ---
+    duration_ms: 2113
+  ...

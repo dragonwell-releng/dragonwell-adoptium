@@ -1,0 +1,412 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_362"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.14.15) (build 1.8.0_362-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.14.15) (build 25.362-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_362"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="amd64"
+# SOURCE=".:git:9fda1554a132+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:3532ac9cf4b354ac6cfd9c2c9ab1b71a1075e5c4"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/alibaba/dragonwell8.git"
+# FULL_VERSION="1.8.0_362-b01"
+# SEMANTIC_VERSION="8.0.362+1"
+# BUILD_INFO="OS: Linux Version: 4.15.0-187-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.362-b01"
+# IMAGE_TYPE="JDK"
+# 
+#SHA.txt content: 
+# ================================================
+# timestamp: 20230203-095521
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.openjdk_x86-64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/aqa-tests.git
+# sha:
+# b60d63cdff92c0ef8079cb5a537ceca28df81b42
+# ================================================
+# timestamp: 20230203-095521
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.openjdk_x86-64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# 29b3d1517d44d777d9c7dd95221ccc478ae80eba
+# ================================================
+# timestamp: 20230203-095528
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.openjdk_x86-64_linux/aqa-tests/openj9
+# git repo: 
+#   Fetch URL: https://github.com/eclipse-openj9/openj9.git
+# sha:
+# 114c39037f0bbe69f97a1f279c8c5ccfaf3f5ec1
+# ================================================
+# timestamp: 20230203-095648
+# repo dir: openjdk-jdk
+# git repo: 
+#   Fetch URL: https://github.com/alibaba/dragonwell8.git
+# sha:
+# 9fda1554a1322b066a343d92cec0ab0204164c4e
+# 
+# Timestamp: Fri Feb  3 03:38:47 2023 UTC 
+1..90
+ok 1 - jdk_custom_0
+  ---
+    duration_ms: 15031
+  ...
+ok 2 - jdk_custom_1
+  ---
+    duration_ms: 14813
+  ...
+ok 3 - jdk_custom_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 4 - langtools_custom_0
+  ---
+    duration_ms: 2991
+  ...
+ok 5 - langtools_custom_1
+  ---
+    duration_ms: 2981
+  ...
+ok 6 - langtools_custom_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 7 - hotspot_custom_0
+  ---
+    duration_ms: 302236
+  ...
+ok 8 - hotspot_custom_1
+  ---
+    duration_ms: 302276
+  ...
+ok 9 - hotspot_custom_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 10 - hotspot_compiler_0
+  ---
+    duration_ms: 1734
+  ...
+ok 11 - hotspot_compiler_1
+  ---
+    duration_ms: 1742
+  ...
+ok 12 - hotspot_compiler_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 13 - hotspot_gc_0
+  ---
+    duration_ms: 1710
+  ...
+ok 14 - hotspot_gc_1
+  ---
+    duration_ms: 1706
+  ...
+ok 15 - hotspot_gc_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 16 - hotspot_runtime_0
+  ---
+    duration_ms: 1704
+  ...
+ok 17 - hotspot_runtime_1
+  ---
+    duration_ms: 1760
+  ...
+ok 18 - hotspot_runtime_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 19 - hotspot_serviceability_0
+  ---
+    duration_ms: 1764
+  ...
+ok 20 - hotspot_serviceability_1
+  ---
+    duration_ms: 1718
+  ...
+ok 21 - hotspot_serviceability_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 22 - hotspot_jre_0
+  ---
+    duration_ms: 445784
+  ...
+ok 23 - hotspot_jre_1
+  ---
+    duration_ms: 446682
+  ...
+ok 24 - hotspot_jre_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 25 - jdk_awt_0 # skip (disabled)
+  ---
+    duration_ms: 11
+  ...
+ok 26 - jdk_awt_1 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 27 - jdk_awt_2 # skip (disabled)
+  ---
+    duration_ms: 11
+  ...
+ok 28 - jdk_beans_0
+  ---
+    duration_ms: 71016
+  ...
+ok 29 - jdk_beans_1
+  ---
+    duration_ms: 72478
+  ...
+ok 30 - jdk_beans_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 31 - jdk_io_0
+  ---
+    duration_ms: 21083
+  ...
+ok 32 - jdk_io_1
+  ---
+    duration_ms: 20853
+  ...
+ok 33 - jdk_io_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 34 - jdk_other_0
+  ---
+    duration_ms: 422977
+  ...
+ok 35 - jdk_other_1
+  ---
+    duration_ms: 430436
+  ...
+ok 36 - jdk_other_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 37 - jdk_net_0
+  ---
+    duration_ms: 269206
+  ...
+ok 38 - jdk_net_1
+  ---
+    duration_ms: 269032
+  ...
+ok 39 - jdk_net_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 40 - jdk_nio_0
+  ---
+    duration_ms: 152443
+  ...
+ok 41 - jdk_nio_1
+  ---
+    duration_ms: 153064
+  ...
+ok 42 - jdk_nio_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 43 - jdk_security1_0
+  ---
+    duration_ms: 37523
+  ...
+ok 44 - jdk_security1_1
+  ---
+    duration_ms: 36767
+  ...
+ok 45 - jdk_security1_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 46 - jdk_security2_0
+  ---
+    duration_ms: 45685
+  ...
+ok 47 - jdk_security2_1
+  ---
+    duration_ms: 23770
+  ...
+ok 48 - jdk_security2_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 49 - jdk_security3_0
+  ---
+    duration_ms: 292102
+  ...
+ok 50 - jdk_security3_1
+  ---
+    duration_ms: 288622
+  ...
+ok 51 - jdk_security3_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 52 - jdk_security4_0
+  ---
+    duration_ms: 69909
+  ...
+ok 53 - jdk_security4_1
+  ---
+    duration_ms: 70668
+  ...
+ok 54 - jdk_security4_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 55 - jdk_sound_0 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 56 - jdk_sound_1 # skip (disabled)
+  ---
+    duration_ms: 11
+  ...
+ok 57 - jdk_sound_2 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 58 - jdk_swing_0 # skip (disabled)
+  ---
+    duration_ms: 11
+  ...
+ok 59 - jdk_swing_1 # skip (disabled)
+  ---
+    duration_ms: 11
+  ...
+ok 60 - jdk_swing_2 # skip (disabled)
+  ---
+    duration_ms: 11
+  ...
+ok 61 - jdk_text_0
+  ---
+    duration_ms: 18665
+  ...
+ok 62 - jdk_text_1
+  ---
+    duration_ms: 18695
+  ...
+ok 63 - jdk_text_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 64 - jdk_time_0
+  ---
+    duration_ms: 55184
+  ...
+ok 65 - jdk_time_1
+  ---
+    duration_ms: 54283
+  ...
+ok 66 - jdk_time_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 67 - jdk_management_0
+  ---
+    duration_ms: 46580
+  ...
+ok 68 - jdk_management_1
+  ---
+    duration_ms: 41579
+  ...
+ok 69 - jdk_management_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 70 - jdk_jmx_0
+  ---
+    duration_ms: 165757
+  ...
+ok 71 - jdk_jmx_1
+  ---
+    duration_ms: 165952
+  ...
+ok 72 - jdk_jmx_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 73 - jdk_rmi_0
+  ---
+    duration_ms: 132159
+  ...
+ok 74 - jdk_rmi_1
+  ---
+    duration_ms: 132399
+  ...
+ok 75 - jdk_rmi_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 76 - jdk_tools_0
+  ---
+    duration_ms: 144905
+  ...
+ok 77 - jdk_tools_1
+  ---
+    duration_ms: 141387
+  ...
+ok 78 - jdk_tools_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 79 - jdk_jfr_0
+  ---
+    duration_ms: 192027
+  ...
+ok 80 - jdk_jfr_1
+  ---
+    duration_ms: 194357
+  ...
+ok 81 - jdk_jfr_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 82 - jdk_instrument_0
+  ---
+    duration_ms: 84264
+  ...
+ok 83 - jdk_instrument_1
+  ---
+    duration_ms: 83944
+  ...
+ok 84 - jdk_instrument_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 85 - jdk_imageio_0
+  ---
+    duration_ms: 63731
+  ...
+ok 86 - jdk_imageio_1
+  ---
+    duration_ms: 64196
+  ...
+ok 87 - jdk_imageio_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 88 - jdk_2d_0 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 89 - jdk_2d_1 # skip (disabled)
+  ---
+    duration_ms: 11
+  ...
+ok 90 - jdk_2d_2 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...

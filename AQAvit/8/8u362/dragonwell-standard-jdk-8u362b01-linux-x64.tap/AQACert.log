@@ -1,0 +1,18 @@
+DETECTED_JAVA_VERSION=openjdk version "1.8.0_362"
+OpenJDK Runtime Environment (Alibaba Dragonwell Extended Edition 8.14.15) (build 1.8.0_362-b01)
+OpenJDK 64-Bit Server VM (Alibaba Dragonwell Extended Edition 8.14.15) (build 25.362-b01, mixed mode)
+DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_362"
+OS_NAME="Linux"
+OS_VERSION="2.6"
+OS_ARCH="amd64"
+SOURCE=".:git:73558dec0896+"
+IMPLEMENTOR="Alibaba"
+BUILD_SOURCE="git:3532ac9cf4b354ac6cfd9c2c9ab1b71a1075e5c4"
+BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+SOURCE_REPO="https://github.com/alibaba/dragonwell8.git"
+FULL_VERSION="1.8.0_362-b01"
+SEMANTIC_VERSION="8.0.362+1"
+BUILD_INFO="OS: Linux Version: 4.15.0-187-generic"
+JVM_VARIANT="Dragonwell"
+JVM_VERSION="25.362-b01"
+IMAGE_TYPE="JDK"
