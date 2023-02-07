@@ -1,6 +1,6 @@
 DETECTED_JAVA_VERSION=openjdk version "1.8.0_362"
-OpenJDK Runtime Environment (Alibaba Dragonwell Extended Edition 8.14.15) (build 1.8.0_362-b01)
-OpenJDK 64-Bit Server VM (Alibaba Dragonwell Extended Edition 8.14.15) (build 25.362-b01, mixed mode)
+OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.14.15) (build 1.8.0_362-b01)
+OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.14.15) (build 25.362-b01, mixed mode)
 DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_362"
 OS_NAME="Linux"
 OS_VERSION="2.6"
