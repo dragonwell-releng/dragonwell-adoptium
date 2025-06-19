@@ -1,0 +1,398 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_452"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.25.24) (build 1.8.0_452-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.25.24) (build 25.452-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_452"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="aarch64"
+# SOURCE=".:git:22b3e70d0cd2+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:9ff799f5bcfbc2553366821902d81e9e5b8bb688"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/dragonwell-project/dragonwell8.git"
+# FULL_VERSION="1.8.0_452-b01"
+# SEMANTIC_VERSION="8.0.452+1"
+# BUILD_INFO="OS: Linux Version: 5.4.0-135-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.452-b01"
+# IMAGE_TYPE="JDK"
+# 
+# Hostname: iZgw86e9lj0cm45wpo0rsiZ
+
+#SHAs.txt content: 
+# ================================================
+# timestamp: 20250619-110345
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.openjdk_aarch64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# f03d5564fa18382f7f770380a452fec4d4240df9
+# ================================================
+# timestamp: 20250619-110345
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.openjdk_aarch64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: git@github.com:adoptium/aqa-tests.git
+# sha:
+# 6ea6974a1ec90c4d9715969f1eacf23ba017ac67
+# ================================================
+# timestamp: 20250619-110345
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.openjdk_aarch64_linux/aqa-tests/openjdk/openjdk-jdk
+# git repo: 
+#   Fetch URL: git@github.com:dragonwell-project/dragonwell8.git
+# sha:
+# 22b3e70d0cd2b2998cfe8900316f42dc87f96182
+# 
+# Timestamp: Thu Jun 19 04:25:53 2025 UTC 
+# TEST TARGETS RESULTS SUMMARY: TOTAL: 64   EXECUTED: 31   PASSED: 31   FAILED: 0   DISABLED: 15   SKIPPED: 18
+# TESTCASES RESULTS SUMMARY: passed: 8,561; failed: 0; error: 0; skipped: 0 
+1..64
+ok 1 - hotspot_jdk_0
+  ---
+    output:
+      |
+        Test results: passed: 823
+    duration_ms: 456019
+  ...
+ok 2 - jdk_awt_0 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 3 - jdk_awt_1 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 4 - jdk_awt_2 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 5 - jdk_beans_0
+  ---
+    output:
+      |
+        Test results: passed: 349
+    duration_ms: 69001
+  ...
+ok 6 - jdk_beans_1
+  ---
+    output:
+      |
+        Test results: passed: 349
+    duration_ms: 68101
+  ...
+ok 7 - jdk_beans_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 8 - jdk_io_0
+  ---
+    output:
+      |
+        Test results: passed: 328
+    duration_ms: 20603
+  ...
+ok 9 - jdk_io_1
+  ---
+    output:
+      |
+        Test results: passed: 328
+    duration_ms: 20741
+  ...
+ok 10 - jdk_io_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 11 - jdk_other_0
+  ---
+    output:
+      |
+        Test results: passed: 221
+    duration_ms: 486018
+  ...
+ok 12 - jdk_other_1
+  ---
+    output:
+      |
+        Test results: passed: 221
+    duration_ms: 506310
+  ...
+ok 13 - jdk_other_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 14 - jdk_net_0
+  ---
+    output:
+      |
+        Test results: passed: 458
+    duration_ms: 271277
+  ...
+ok 15 - jdk_net_1
+  ---
+    output:
+      |
+        Test results: passed: 458
+    duration_ms: 271381
+  ...
+ok 16 - jdk_net_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 17 - jdk_nio_0
+  ---
+    output:
+      |
+        Test results: passed: 348
+    duration_ms: 121794
+  ...
+ok 18 - jdk_nio_1
+  ---
+    output:
+      |
+        Test results: passed: 348
+    duration_ms: 122373
+  ...
+ok 19 - jdk_nio_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 20 - jdk_security3_0
+  ---
+    output:
+      |
+        Test results: passed: 615
+    duration_ms: 324484
+  ...
+ok 21 - jdk_security3_1
+  ---
+    output:
+      |
+        Test results: passed: 615
+    duration_ms: 356355
+  ...
+ok 22 - jdk_security3_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 23 - jdk_sound_0 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 24 - jdk_sound_1 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 25 - jdk_sound_2 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 26 - jdk_swing_0 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 27 - jdk_swing_1 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 28 - jdk_swing_2 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 29 - jdk_text_0
+  ---
+    output:
+      |
+        Test results: passed: 151
+    duration_ms: 18086
+  ...
+ok 30 - jdk_text_1
+  ---
+    output:
+      |
+        Test results: passed: 151
+    duration_ms: 18142
+  ...
+ok 31 - jdk_text_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 32 - jdk_time_0
+  ---
+    output:
+      |
+        Test results: passed: 170
+    duration_ms: 45625
+  ...
+ok 33 - jdk_time_1
+  ---
+    output:
+      |
+        Test results: passed: 170
+    duration_ms: 45541
+  ...
+ok 34 - jdk_time_2 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 35 - jdk_management_0
+  ---
+    output:
+      |
+        Test results: passed: 108
+    duration_ms: 45254
+  ...
+ok 36 - jdk_management_1
+  ---
+    output:
+      |
+        Test results: passed: 108
+    duration_ms: 22489
+  ...
+ok 37 - jdk_management_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 38 - jdk_jmx_0
+  ---
+    output:
+      |
+        Test results: passed: 238
+    duration_ms: 236067
+  ...
+ok 39 - jdk_jmx_1
+  ---
+    output:
+      |
+        Test results: passed: 238
+    duration_ms: 236288
+  ...
+ok 40 - jdk_jmx_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 41 - jdk_rmi_0
+  ---
+    output:
+      |
+        Test results: passed: 137
+    duration_ms: 123906
+  ...
+ok 42 - jdk_rmi_1
+  ---
+    output:
+      |
+        Test results: passed: 137
+    duration_ms: 124253
+  ...
+ok 43 - jdk_rmi_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 44 - jdk_tools_0
+  ---
+    output:
+      |
+        Test results: passed: 114
+    duration_ms: 140248
+  ...
+ok 45 - jdk_tools_1
+  ---
+    output:
+      |
+        Test results: passed: 114
+    duration_ms: 138957
+  ...
+ok 46 - jdk_tools_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 47 - jdk_jfr_0
+  ---
+    output:
+      |
+        Test results: passed: 431
+    duration_ms: 164471
+  ...
+ok 48 - jdk_jfr_1
+  ---
+    output:
+      |
+        Test results: passed: 431
+    duration_ms: 165299
+  ...
+ok 49 - jdk_jfr_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 50 - jdk_instrument_0
+  ---
+    output:
+      |
+        Test results: passed: 57
+    duration_ms: 92178
+  ...
+ok 51 - jdk_instrument_1
+  ---
+    output:
+      |
+        Test results: passed: 57
+    duration_ms: 92603
+  ...
+ok 52 - jdk_instrument_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 53 - jdk_imageio_0
+  ---
+    output:
+      |
+        Test results: passed: 144
+    duration_ms: 60737
+  ...
+ok 54 - jdk_imageio_1
+  ---
+    output:
+      |
+        Test results: passed: 144
+    duration_ms: 61132
+  ...
+ok 55 - jdk_imageio_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 56 - jdk_security_infra_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 57 - jdk_security_infra_1 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 58 - jdk_security_infra_2 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 59 - jdk_security_infra_zos_0 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 60 - jdk_security_infra_zos_1 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 61 - jdk_security_infra_zos_2 # skip
+  ---
+    duration_ms: 9
+  ...
+ok 62 - jdk_2d_0 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 63 - jdk_2d_1 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 64 - jdk_2d_2 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...

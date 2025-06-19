@@ -1,0 +1,77 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_452"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.25.24) (build 1.8.0_452-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.25.24) (build 25.452-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_452"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="aarch64"
+# SOURCE=".:git:22b3e70d0cd2+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:9ff799f5bcfbc2553366821902d81e9e5b8bb688"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/dragonwell-project/dragonwell8.git"
+# FULL_VERSION="1.8.0_452-b01"
+# SEMANTIC_VERSION="8.0.452+1"
+# BUILD_INFO="OS: Linux Version: 5.4.0-135-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.452-b01"
+# IMAGE_TYPE="JDK"
+# 
+# Hostname: iZgw86e9lj0cm45wpo0rshZ
+
+#SHAs.txt content: 
+# ================================================
+# timestamp: 20250619-105903
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.perf_aarch64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# f03d5564fa18382f7f770380a452fec4d4240df9
+# ================================================
+# timestamp: 20250619-105903
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.perf_aarch64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: git@github.com:adoptium/aqa-tests.git
+# sha:
+# 6ea6974a1ec90c4d9715969f1eacf23ba017ac67
+# 
+# Timestamp: Thu Jun 19 02:59:07 2025 UTC 
+# TEST TARGETS RESULTS SUMMARY: TOTAL: 9   EXECUTED: 3   PASSED: 3   FAILED: 0   DISABLED: 5   SKIPPED: 1
+1..9
+ok 1 - renaissance-akka-uct_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 2 - renaissance-fj-kmeans_0
+  ---
+    duration_ms: 768
+  ...
+ok 3 - renaissance-future-genetic_0
+  ---
+    duration_ms: 759
+  ...
+ok 4 - renaissance-naive-bayes_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 5 - renaissance-scala-kmeans_0
+  ---
+    duration_ms: 944
+  ...
+ok 6 - IdleMicrobenchmark_HS_0 # skip
+  ---
+    duration_ms: 10
+  ...
+ok 7 - dacapo-eclipse_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 8 - dacapo-h2_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 9 - dacapo-lusearch-fix_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
