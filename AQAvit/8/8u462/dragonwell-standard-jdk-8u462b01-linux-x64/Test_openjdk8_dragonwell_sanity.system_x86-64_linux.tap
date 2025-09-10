@@ -1,0 +1,259 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_462"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.26.25) (build 1.8.0_462-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.26.25) (build 25.462-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_462"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="amd64"
+# SOURCE=".:git:b616ce88a6c3+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:9ff799f5bcfbc2553366821902d81e9e5b8bb688"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/dragonwell-project/dragonwell8.git"
+# FULL_VERSION="1.8.0_462-b01"
+# SEMANTIC_VERSION="8.0.462+1"
+# BUILD_INFO="OS: Linux Version: 5.4.0-137-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.462-b01"
+# IMAGE_TYPE="JDK"
+# 
+# Hostname: iZgw8du5lev6ljk1j9f2i2Z
+
+#SHAs.txt content: 
+# ================================================
+# timestamp: 20250814-173137
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/system/STF
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/STF.git
+# sha:
+# 7534c9296a7effe8499d9c236e0cc12d5bc97826
+# ================================================
+# timestamp: 20250814-173137
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/system/aqa-systemtest
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/aqa-systemtest.git
+# sha:
+# dbae19c80b3664a1a84bb236fbb2a08021008468
+# ================================================
+# timestamp: 20250814-173137
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: git@github.com:adoptium/aqa-tests.git
+# sha:
+# 8932a5f7a5e40b861f159fd0d0c2ff83d71a2fe5
+# ================================================
+# timestamp: 20250814-173137
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# 5db0f052b124b696faccf97908923f69b33034b9
+# 
+# Timestamp: Thu Aug 14 12:23:56 2025 UTC 
+# TEST TARGETS RESULTS SUMMARY: TOTAL: 51   EXECUTED: 30   PASSED: 30   FAILED: 0   DISABLED: 6   SKIPPED: 15
+1..51
+ok 1 - MathLoadTest_autosimd_5m_0
+  ---
+    duration_ms: 302103
+  ...
+ok 2 - MathLoadTest_autosimd_5m_1
+  ---
+    duration_ms: 301787
+  ...
+ok 3 - MathLoadTest_autosimd_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 4 - MathLoadTest_bigdecimal_5m_0
+  ---
+    duration_ms: 302232
+  ...
+ok 5 - MathLoadTest_bigdecimal_5m_1
+  ---
+    duration_ms: 301994
+  ...
+ok 6 - MathLoadTest_bigdecimal_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 7 - ClassLoadingTest_5m_0
+  ---
+    duration_ms: 301889
+  ...
+ok 8 - ClassLoadingTest_5m_1
+  ---
+    duration_ms: 302000
+  ...
+ok 9 - ClassLoadingTest_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 10 - NioLoadTest_5m_0
+  ---
+    duration_ms: 311931
+  ...
+ok 11 - NioLoadTest_5m_1
+  ---
+    duration_ms: 311998
+  ...
+ok 12 - NioLoadTest_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 13 - MauveSingleThrdLoad_HS_5m_0
+  ---
+    duration_ms: 302080
+  ...
+ok 14 - MauveSingleThrdLoad_HS_5m_1
+  ---
+    duration_ms: 302037
+  ...
+ok 15 - MauveSingleThrdLoad_HS_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 16 - MauveSingleInvocLoad_HS_5m_0
+  ---
+    duration_ms: 302475
+  ...
+ok 17 - MauveSingleInvocLoad_HS_5m_1
+  ---
+    duration_ms: 302479
+  ...
+ok 18 - MauveSingleInvocLoad_HS_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 19 - MauveMultiThrdLoad_5m_0
+  ---
+    duration_ms: 302327
+  ...
+ok 20 - MauveMultiThrdLoad_5m_1
+  ---
+    duration_ms: 302491
+  ...
+ok 21 - MauveMultiThrdLoad_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 22 - LambdaLoadTest_HS_5m_0
+  ---
+    duration_ms: 302288
+  ...
+ok 23 - LambdaLoadTest_HS_5m_1
+  ---
+    duration_ms: 305008
+  ...
+ok 24 - LambdaLoadTest_HS_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 25 - ParallelStreamsLoadTest_HS_0
+  ---
+    duration_ms: 9754
+  ...
+ok 26 - ParallelStreamsLoadTest_HS_1
+  ---
+    duration_ms: 11420
+  ...
+ok 27 - ParallelStreamsLoadTest_HS_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 28 - TestJlmLocal_0
+  ---
+    duration_ms: 26563
+  ...
+ok 29 - TestJlmLocal_1
+  ---
+    duration_ms: 26473
+  ...
+ok 30 - TestJlmLocal_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 31 - TestJlmRemoteClassAuth_0
+  ---
+    duration_ms: 638138
+  ...
+ok 32 - TestJlmRemoteClassAuth_1
+  ---
+    duration_ms: 637995
+  ...
+ok 33 - TestJlmRemoteClassAuth_2 # skip
+  ---
+    duration_ms: 8
+  ...
+ok 34 - TestJlmRemoteClassNoAuth_0
+  ---
+    duration_ms: 637166
+  ...
+ok 35 - TestJlmRemoteClassNoAuth_1
+  ---
+    duration_ms: 637282
+  ...
+ok 36 - TestJlmRemoteClassNoAuth_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 37 - TestJlmRemoteMemoryAuth_0 # skip (disabled)
+  ---
+    duration_ms: 10
+  ...
+ok 38 - TestJlmRemoteMemoryAuth_1 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 39 - TestJlmRemoteMemoryAuth_2 # skip (disabled)
+  ---
+    duration_ms: 10
+  ...
+ok 40 - TestJlmRemoteMemoryNoAuth_0 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 41 - TestJlmRemoteMemoryNoAuth_1 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 42 - TestJlmRemoteMemoryNoAuth_2 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 43 - TestJlmRemoteNotifierProxyAuth_0
+  ---
+    duration_ms: 137955
+  ...
+ok 44 - TestJlmRemoteNotifierProxyAuth_1
+  ---
+    duration_ms: 137506
+  ...
+ok 45 - TestJlmRemoteNotifierProxyAuth_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 46 - TestJlmRemoteThreadAuth_0
+  ---
+    duration_ms: 645874
+  ...
+ok 47 - TestJlmRemoteThreadAuth_1
+  ---
+    duration_ms: 646666
+  ...
+ok 48 - TestJlmRemoteThreadAuth_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 49 - TestJlmRemoteThreadNoAuth_0
+  ---
+    duration_ms: 643764
+  ...
+ok 50 - TestJlmRemoteThreadNoAuth_1
+  ---
+    duration_ms: 644014
+  ...
+ok 51 - TestJlmRemoteThreadNoAuth_2 # skip
+  ---
+    duration_ms: 7
+  ...
