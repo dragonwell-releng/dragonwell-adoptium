@@ -1,0 +1,111 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_462"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.26.25) (build 1.8.0_462-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.26.25) (build 25.462-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_462"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="aarch64"
+# SOURCE=".:git:554c961c6464+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:a173e305a7acd54ebddf50f3b3fc2b668c5741e4"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/dragonwell-project/dragonwell8.git"
+# FULL_VERSION="1.8.0_462-b01"
+# SEMANTIC_VERSION="8.0.462+1"
+# BUILD_INFO="OS: Linux Version: 5.4.0-135-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.462-b01"
+# IMAGE_TYPE="JDK"
+# 
+# Hostname: iZgw86e9lj0cm45wpo0rsjZ
+
+#SHAs.txt content: 
+# ================================================
+# timestamp: 20251029-144530
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.functional_aarch64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# 53ec8d15bf7d8c68d2fd2e903cf54a0a1fe7f697
+# ================================================
+# timestamp: 20251029-144530
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.functional_aarch64_linux/aqa-tests/openj9
+# git repo: 
+#   Fetch URL: https://github.com/eclipse-openj9/openj9.git
+# sha:
+# e1e7ccf257c31a02ad364e75937da7f69cc5f142
+# ================================================
+# timestamp: 20251029-144530
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.functional_aarch64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: git@github.com:adoptium/aqa-tests.git
+# sha:
+# b3dcaae938faa4ff45cd9d35dfc10c58628b9cc3
+# ================================================
+# timestamp: 20251029-144530
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_extended.functional_aarch64_linux/aqa-tests/functional/security/Crypto/CryptoTest
+# git repo: 
+#   Fetch URL: https://github.com/rh-openjdk/CryptoTest.git
+# sha:
+# f0d8925b049f10e8cba3a0a25eec98b025465a57
+# 
+# Timestamp: Wed Oct 29 06:47:27 2025 UTC 
+# TEST TARGETS RESULTS SUMMARY: TOTAL: 6   EXECUTED: 2   PASSED: 1   FAILED: 1   DISABLED: 2   SKIPPED: 2
+1..6
+ok 1 - SecurityTests_0 # skip (disabled)
+  ---
+    duration_ms: 13
+  ...
+ok 2 - CryptoTests_0 # skip (disabled)
+  ---
+    duration_ms: 12
+  ...
+ok 3 - CryptoTests_jtreg_0
+  ---
+    output:
+      |
+        Test results: passed: 31
+    duration_ms: 115038
+  ...
+ok 4 - cmdLineTester_classesdbgddrext_zos_0 # skip
+  ---
+    duration_ms: 10
+  ...
+not ok 5 - IllegalAccessProtectedMethodTest_hs_0
+  ---
+    output:
+      |
+        ===============================================
+        ===============================================
+        IllegalAccessProtectedMethodTest_hs_0 Start Time: Wed Oct 29 14:47:27 2025 Epoch Time (ms): 1761720447301
+        variation: NoOptions
+        JVM_OPTIONS:  
+        
+        TEST SETUP:
+        Nothing to be done for setup.
+        
+        TESTING:
+        Error: A JNI error has occurred, please check your installation and try again
+        Exception in thread "main" java.lang.NoClassDefFoundError: com/beust/jcommander/ParameterException
+        	at java.lang.Class.getDeclaredMethods0(Native Method)
+        	at java.lang.Class.privateGetDeclaredMethods(Class.java:2701)
+        	at java.lang.Class.privateGetMethodRecursive(Class.java:3048)
+        	at java.lang.Class.getMethod0(Class.java:3018)
+        	at java.lang.Class.getMethod(Class.java:1784)
+        	at sun.launcher.LauncherHelper.validateMainClass(LauncherHelper.java:670)
+        	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:652)
+        Caused by: java.lang.ClassNotFoundException: com.beust.jcommander.ParameterException
+        	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+        	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+        	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+        	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+        	... 7 more
+        -----------------------------------
+        IllegalAccessProtectedMethodTest_hs_0_FAILED
+    duration_ms: 102
+  ...
+ok 6 - testExample_0 # skip
+  ---
+    duration_ms: 10
+  ...

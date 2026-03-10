@@ -1,0 +1,57 @@
+{
+  "releases": [
+    {
+      "release_link": "https://github.com/alibaba/dragonwell8/wiki/%E4%B8%8B%E8%BD%BD%E9%95%9C%E5%83%8F(Mirrors-for-download)",
+      "release_name": "jdk8u472-b01",
+      "last_updated_timestamp": "2026-03-10T05:59:11Z",
+      "binaries": [
+        {
+          "os": "linux",
+          "architecture": "aarch64",
+          "image_type": "jdk",
+          "jvm_impl": "hotspot",
+          "package": {
+            "name": "Alibaba_Dragonwell_Standard_8.27.26_aarch64_linux.tar.gz",
+			"link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.27.26_jdk8u472-ga/Alibaba_Dragonwell_Standard_8.27.26_aarch64_linux.tar.gz",
+			"sha265sum": "07375dcfba369cd40453e20c5adcd9d1c3cbbf6f9f356955cfe129dc6dc85e6a",
+			"sha256sum_link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.27.26_jdk8u472-ga/Alibaba_Dragonwell_Standard_8.27.26_aarch64_linux.tar.gz.sha256.txt"
+          },
+          "timestamp": "2026-03-10T05:59:11Z",
+          "scm_ref": "jdk8u472-b01",
+          "openjdk_scm_ref": "jdk8u472-b01",
+          "distribution": "dragonwell",
+          "aqavit_results_link": "https://github.com/dragonwell-releng/dragonwell-adoptium/blob/master/AQAvit/8/8u472/dragonwell-standard-jdk-8u472b01-linux-aarch64.tap.zip",
+          "tck_affidavit_link": "https://dragonwell-jdk.io/#/tck-affidavit"
+        }, {
+          "os": "linux",
+          "architecture": "x64",
+          "image_type": "jdk",
+          "jvm_impl": "hotspot",
+          "package": {
+            "name": "Alibaba_Dragonwell_Standard_8.27.26_x64_linux.tar.gz",
+			"link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.27.26_jdk8u472-ga/Alibaba_Dragonwell_Standard_8.27.26_x64_linux.tar.gz",
+			"sha265sum": "63b362877de924f5f2b02b7cb4839705c0ecd38ee51308d3035d27d18fec1820",
+			"sha256sum_link": "https://github.com/dragonwell-project/dragonwell8/releases/download/dragonwell-standard-8.27.26_jdk8u472-ga/Alibaba_Dragonwell_Standard_8.27.26_x64_linux.tar.gz.sha256.txt"
+          },
+          "timestamp": "2026-03-10T05:59:11Z",
+          "scm_ref": "jdk8u472-b01",
+          "openjdk_scm_ref": "jdk8u472-b01",
+          "distribution": "dragonwell",
+          "aqavit_results_link": "https://github.com/dragonwell-releng/dragonwell-adoptium/blob/master/AQAvit/8/8u472/dragonwell-standard-jdk-8u472b01-linux-x64.tap.zip",
+          "tck_affidavit_link": "https://dragonwell-jdk.io/#/tck-affidavit"
+        }
+      ],
+      "vendor": "alibaba",
+      "openjdk_version_data": {
+        "major": 8,
+        "minor": 0,
+        "security": 472,
+        "patch": null,
+        "pre": null,
+        "build": 1,
+        "optional": null,
+        "openjdk_version": "1.8.0_472-b01"
+      }
+    }
+  ]
+}

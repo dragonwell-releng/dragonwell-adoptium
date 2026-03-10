@@ -1,0 +1,523 @@
+# AQACert.log content: 
+# DETECTED_JAVA_VERSION=openjdk version "1.8.0_462"
+# OpenJDK Runtime Environment (Alibaba Dragonwell Standard Edition 8.26.25) (build 1.8.0_462-b01)
+# OpenJDK 64-Bit Server VM (Alibaba Dragonwell Standard Edition 8.26.25) (build 25.462-b01, mixed mode)
+# DETECTED_RELEASE_INFO=JAVA_VERSION="1.8.0_462"
+# OS_NAME="Linux"
+# OS_VERSION="2.6"
+# OS_ARCH="amd64"
+# SOURCE=".:git:554c961c6464+"
+# IMPLEMENTOR="Alibaba"
+# BUILD_SOURCE="git:a173e305a7acd54ebddf50f3b3fc2b668c5741e4"
+# BUILD_SOURCE_REPO="https://github.com/dragonwell-releng/openjdk-build.git"
+# SOURCE_REPO="https://github.com/dragonwell-project/dragonwell8.git"
+# FULL_VERSION="1.8.0_462-b01"
+# SEMANTIC_VERSION="8.0.462+1"
+# BUILD_INFO="OS: Linux Version: 5.4.0-106-generic"
+# JVM_VARIANT="Dragonwell"
+# JVM_VERSION="25.462-b01"
+# IMAGE_TYPE="JDK"
+# 
+# Hostname: iZgw8du5lev6ljk1j9f2i3Z
+
+#SHAs.txt content: 
+# ================================================
+# timestamp: 20251029-151359
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/system/STF
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/STF.git
+# sha:
+# 7534c9296a7effe8499d9c236e0cc12d5bc97826
+# ================================================
+# timestamp: 20251029-151359
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/system/aqa-systemtest
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/aqa-systemtest.git
+# sha:
+# 9d82b1cf5a13084b357db98d41c39814cc6ef84e
+# ================================================
+# timestamp: 20251029-151359
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests
+# git repo: 
+#   Fetch URL: git@github.com:adoptium/aqa-tests.git
+# sha:
+# b3dcaae938faa4ff45cd9d35dfc10c58628b9cc3
+# ================================================
+# timestamp: 20251029-151359
+# repo dir: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG
+# git repo: 
+#   Fetch URL: https://github.com/adoptium/TKG.git
+# sha:
+# 53ec8d15bf7d8c68d2fd2e903cf54a0a1fe7f697
+# 
+# Timestamp: Wed Oct 29 09:36:08 2025 UTC 
+# TEST TARGETS RESULTS SUMMARY: TOTAL: 51   EXECUTED: 30   PASSED: 24   FAILED: 6   DISABLED: 6   SKIPPED: 15
+1..51
+ok 1 - MathLoadTest_autosimd_5m_0
+  ---
+    duration_ms: 301680
+  ...
+ok 2 - MathLoadTest_autosimd_5m_1
+  ---
+    duration_ms: 301948
+  ...
+ok 3 - MathLoadTest_autosimd_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 4 - MathLoadTest_bigdecimal_5m_0
+  ---
+    duration_ms: 302493
+  ...
+ok 5 - MathLoadTest_bigdecimal_5m_1
+  ---
+    duration_ms: 302030
+  ...
+ok 6 - MathLoadTest_bigdecimal_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 7 - ClassLoadingTest_5m_0
+  ---
+    duration_ms: 301664
+  ...
+ok 8 - ClassLoadingTest_5m_1
+  ---
+    duration_ms: 302226
+  ...
+ok 9 - ClassLoadingTest_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 10 - NioLoadTest_5m_0
+  ---
+    duration_ms: 311932
+  ...
+ok 11 - NioLoadTest_5m_1
+  ---
+    duration_ms: 310976
+  ...
+ok 12 - NioLoadTest_5m_2 # skip
+  ---
+    duration_ms: 8
+  ...
+not ok 13 - MauveSingleThrdLoad_HS_5m_0
+  ---
+    output:
+      |
+        ===============================================
+        ===============================================
+        MauveSingleThrdLoad_HS_5m_0 Start Time: Wed Oct 29 15:54:35 2025 Epoch Time (ms): 1761724475292
+        variation: Mode150
+        JVM_OPTIONS:  -XX:+UseCompressedOops 
+        
+        TEST SETUP:
+        Nothing to be done for setup.
+        
+        TESTING:
+        STF 15:54:35.330 - =========================   S T F   =========================
+        systemtest-prereqs has been processed, and set to: /home/admin/externalDependency/system_libRetrieving amount of free space on drive containing /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleThrdLoad_HS_5m_0
+        There is 50849 Mb free
+        STF 15:54:35.333 - ==================   G E N E R A T I O N   ==================
+        STF 15:54:35.333 - Checking JVM: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image
+        STF 15:54:35.333 - Starting process to generate scripts: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image/bin/java  -Dlog4j.skipJansi=true -Djava.system.class.loader=net.adoptopenjdk.stf.runner.StfClassLoader -Dload.agent.path=/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../../stf.load/bin/stf.load.jar -classpath /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm-commons.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-api.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-core.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../bin net.adoptopenjdk.stf.runner.StfRunner -properties "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleThrdLoad_HS_5m_0/20251029-155435-MauveSingleThrdLoad/stf_parameters.properties, , /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/config/stf.properties" -testDir "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleThrdLoad_HS_5m_0/20251029-155435-MauveSingleThrdLoad"
+        GEN 15:54:35.693 - Found test. Project: 'openjdk.test.load' class: 'MauveSingleThrdLoad.class' Dir: '/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin'
+        GEN 15:54:35.697 - Found test. Project: 'openjdk.test.load' class: 'net.adoptopenjdk.stf.MauveSingleThrdLoad'
+        GEN Classpath directories used by project 'openjdk.test.load': 
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.load/bin
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-api.jar
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-core.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/junit.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/hamcrest-core.jar
+        GEN 15:54:35.784 - Using Mode NoOptions. Values = ''
+        GEN stderr Exception in thread "main" net.adoptopenjdk.stf.StfException: Note: file 'mauve/mauve.jar' could not be found in any of the supplied test roots: '/home/admin/externalDependency/system_lib'
+        GEN stderr 	at net.adoptopenjdk.stf.environment.FileRef.findFile(FileRef.java:170)
+        GEN stderr 	at net.adoptopenjdk.stf.environment.StfEnvironmentCore.findPrereqFile(StfEnvironmentCore.java:271)
+        GEN stderr 	at net.adoptopenjdk.stf.extensions.core.StfEnvironment.findPrereqFile(StfEnvironment.java:100)
+        GEN stderr 	at net.adoptopenjdk.stf.MauveSingleThrdLoad.execute(MauveSingleThrdLoad.java:37)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        GEN stderr 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        GEN stderr 	at java.lang.reflect.Method.invoke(Method.java:498)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.runStage(StfRunner.java:549)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.executeTest(StfRunner.java:297)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.main(StfRunner.java:69)
+        Generation failed
+        -----------------------------------
+        MauveSingleThrdLoad_HS_5m_0_FAILED
+    duration_ms: 524
+  ...
+not ok 14 - MauveSingleThrdLoad_HS_5m_1
+  ---
+    output:
+      |
+        ===============================================
+        ===============================================
+        MauveSingleThrdLoad_HS_5m_1 Start Time: Wed Oct 29 15:54:35 2025 Epoch Time (ms): 1761724475828
+        variation: Mode650
+        JVM_OPTIONS:  -XX:-UseCompressedOops 
+        
+        TEST SETUP:
+        Nothing to be done for setup.
+        
+        TESTING:
+        STF 15:54:35.867 - =========================   S T F   =========================
+        systemtest-prereqs has been processed, and set to: /home/admin/externalDependency/system_libRetrieving amount of free space on drive containing /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleThrdLoad_HS_5m_1
+        There is 50849 Mb free
+        STF 15:54:35.870 - ==================   G E N E R A T I O N   ==================
+        STF 15:54:35.870 - Checking JVM: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image
+        STF 15:54:35.870 - Starting process to generate scripts: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image/bin/java  -Dlog4j.skipJansi=true -Djava.system.class.loader=net.adoptopenjdk.stf.runner.StfClassLoader -Dload.agent.path=/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../../stf.load/bin/stf.load.jar -classpath /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm-commons.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-api.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-core.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../bin net.adoptopenjdk.stf.runner.StfRunner -properties "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleThrdLoad_HS_5m_1/20251029-155435-MauveSingleThrdLoad/stf_parameters.properties, , /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/config/stf.properties" -testDir "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleThrdLoad_HS_5m_1/20251029-155435-MauveSingleThrdLoad"
+        GEN 15:54:36.225 - Found test. Project: 'openjdk.test.load' class: 'MauveSingleThrdLoad.class' Dir: '/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin'
+        GEN 15:54:36.229 - Found test. Project: 'openjdk.test.load' class: 'net.adoptopenjdk.stf.MauveSingleThrdLoad'
+        GEN Classpath directories used by project 'openjdk.test.load': 
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.load/bin
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-api.jar
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-core.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/junit.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/hamcrest-core.jar
+        GEN 15:54:36.303 - Using Mode NoOptions. Values = ''
+        GEN stderr Exception in thread "main" net.adoptopenjdk.stf.StfException: Note: file 'mauve/mauve.jar' could not be found in any of the supplied test roots: '/home/admin/externalDependency/system_lib'
+        GEN stderr 	at net.adoptopenjdk.stf.environment.FileRef.findFile(FileRef.java:170)
+        GEN stderr 	at net.adoptopenjdk.stf.environment.StfEnvironmentCore.findPrereqFile(StfEnvironmentCore.java:271)
+        GEN stderr 	at net.adoptopenjdk.stf.extensions.core.StfEnvironment.findPrereqFile(StfEnvironment.java:100)
+        GEN stderr 	at net.adoptopenjdk.stf.MauveSingleThrdLoad.execute(MauveSingleThrdLoad.java:37)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        GEN stderr 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        GEN stderr 	at java.lang.reflect.Method.invoke(Method.java:498)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.runStage(StfRunner.java:549)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.executeTest(StfRunner.java:297)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.main(StfRunner.java:69)
+        Generation failed
+        -----------------------------------
+        MauveSingleThrdLoad_HS_5m_1_FAILED
+    duration_ms: 508
+  ...
+ok 15 - MauveSingleThrdLoad_HS_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+not ok 16 - MauveSingleInvocLoad_HS_5m_0
+  ---
+    output:
+      |
+        ===============================================
+        ===============================================
+        MauveSingleInvocLoad_HS_5m_0 Start Time: Wed Oct 29 15:54:36 2025 Epoch Time (ms): 1761724476367
+        variation: Mode150
+        JVM_OPTIONS:  -XX:+UseCompressedOops 
+        
+        TEST SETUP:
+        Nothing to be done for setup.
+        
+        TESTING:
+        STF 15:54:36.410 - =========================   S T F   =========================
+        systemtest-prereqs has been processed, and set to: /home/admin/externalDependency/system_libRetrieving amount of free space on drive containing /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleInvocLoad_HS_5m_0
+        There is 50849 Mb free
+        STF 15:54:36.413 - ==================   G E N E R A T I O N   ==================
+        STF 15:54:36.414 - Checking JVM: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image
+        STF 15:54:36.414 - Starting process to generate scripts: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image/bin/java  -Dlog4j.skipJansi=true -Djava.system.class.loader=net.adoptopenjdk.stf.runner.StfClassLoader -Dload.agent.path=/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../../stf.load/bin/stf.load.jar -classpath /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm-commons.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-api.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-core.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../bin net.adoptopenjdk.stf.runner.StfRunner -properties "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleInvocLoad_HS_5m_0/20251029-155436-MauveSingleInvocLoad/stf_parameters.properties, , /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/config/stf.properties" -testDir "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleInvocLoad_HS_5m_0/20251029-155436-MauveSingleInvocLoad"
+        GEN 15:54:36.789 - Found test. Project: 'openjdk.test.load' class: 'MauveSingleInvocLoad.class' Dir: '/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin'
+        GEN 15:54:36.793 - Found test. Project: 'openjdk.test.load' class: 'net.adoptopenjdk.stf.MauveSingleInvocLoad'
+        GEN Classpath directories used by project 'openjdk.test.load': 
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.load/bin
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-api.jar
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-core.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/junit.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/hamcrest-core.jar
+        GEN 15:54:36.866 - Using Mode NoOptions. Values = ''
+        GEN stderr Exception in thread "main" net.adoptopenjdk.stf.StfException: Note: file 'mauve/mauve.jar' could not be found in any of the supplied test roots: '/home/admin/externalDependency/system_lib'
+        GEN stderr 	at net.adoptopenjdk.stf.environment.FileRef.findFile(FileRef.java:170)
+        GEN stderr 	at net.adoptopenjdk.stf.environment.StfEnvironmentCore.findPrereqFile(StfEnvironmentCore.java:271)
+        GEN stderr 	at net.adoptopenjdk.stf.extensions.core.StfEnvironment.findPrereqFile(StfEnvironment.java:100)
+        GEN stderr 	at net.adoptopenjdk.stf.MauveSingleInvocLoad.execute(MauveSingleInvocLoad.java:37)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        GEN stderr 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        GEN stderr 	at java.lang.reflect.Method.invoke(Method.java:498)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.runStage(StfRunner.java:549)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.executeTest(StfRunner.java:297)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.main(StfRunner.java:69)
+        Generation failed
+        -----------------------------------
+        MauveSingleInvocLoad_HS_5m_0_FAILED
+    duration_ms: 531
+  ...
+not ok 17 - MauveSingleInvocLoad_HS_5m_1
+  ---
+    output:
+      |
+        ===============================================
+        ===============================================
+        MauveSingleInvocLoad_HS_5m_1 Start Time: Wed Oct 29 15:54:36 2025 Epoch Time (ms): 1761724476911
+        variation: Mode650
+        JVM_OPTIONS:  -XX:-UseCompressedOops 
+        
+        TEST SETUP:
+        Nothing to be done for setup.
+        
+        TESTING:
+        STF 15:54:36.949 - =========================   S T F   =========================
+        systemtest-prereqs has been processed, and set to: /home/admin/externalDependency/system_libRetrieving amount of free space on drive containing /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleInvocLoad_HS_5m_1
+        There is 50849 Mb free
+        STF 15:54:36.952 - ==================   G E N E R A T I O N   ==================
+        STF 15:54:36.953 - Checking JVM: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image
+        STF 15:54:36.953 - Starting process to generate scripts: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image/bin/java  -Dlog4j.skipJansi=true -Djava.system.class.loader=net.adoptopenjdk.stf.runner.StfClassLoader -Dload.agent.path=/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../../stf.load/bin/stf.load.jar -classpath /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm-commons.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-api.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-core.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../bin net.adoptopenjdk.stf.runner.StfRunner -properties "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleInvocLoad_HS_5m_1/20251029-155436-MauveSingleInvocLoad/stf_parameters.properties, , /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/config/stf.properties" -testDir "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveSingleInvocLoad_HS_5m_1/20251029-155436-MauveSingleInvocLoad"
+        GEN 15:54:37.328 - Found test. Project: 'openjdk.test.load' class: 'MauveSingleInvocLoad.class' Dir: '/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin'
+        GEN 15:54:37.332 - Found test. Project: 'openjdk.test.load' class: 'net.adoptopenjdk.stf.MauveSingleInvocLoad'
+        GEN Classpath directories used by project 'openjdk.test.load': 
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.load/bin
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-api.jar
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-core.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/junit.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/hamcrest-core.jar
+        GEN 15:54:37.408 - Using Mode NoOptions. Values = ''
+        GEN stderr Exception in thread "main" net.adoptopenjdk.stf.StfException: Note: file 'mauve/mauve.jar' could not be found in any of the supplied test roots: '/home/admin/externalDependency/system_lib'
+        GEN stderr 	at net.adoptopenjdk.stf.environment.FileRef.findFile(FileRef.java:170)
+        GEN stderr 	at net.adoptopenjdk.stf.environment.StfEnvironmentCore.findPrereqFile(StfEnvironmentCore.java:271)
+        GEN stderr 	at net.adoptopenjdk.stf.extensions.core.StfEnvironment.findPrereqFile(StfEnvironment.java:100)
+        GEN stderr 	at net.adoptopenjdk.stf.MauveSingleInvocLoad.execute(MauveSingleInvocLoad.java:37)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        GEN stderr 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        GEN stderr 	at java.lang.reflect.Method.invoke(Method.java:498)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.runStage(StfRunner.java:549)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.executeTest(StfRunner.java:297)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.main(StfRunner.java:69)
+        Generation failed
+        -----------------------------------
+        MauveSingleInvocLoad_HS_5m_1_FAILED
+    duration_ms: 532
+  ...
+ok 18 - MauveSingleInvocLoad_HS_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+not ok 19 - MauveMultiThrdLoad_5m_0
+  ---
+    output:
+      |
+        ===============================================
+        ===============================================
+        MauveMultiThrdLoad_5m_0 Start Time: Wed Oct 29 15:54:37 2025 Epoch Time (ms): 1761724477475
+        variation: Mode150
+        JVM_OPTIONS:  -XX:+UseCompressedOops 
+        
+        TEST SETUP:
+        Nothing to be done for setup.
+        
+        TESTING:
+        STF 15:54:37.514 - =========================   S T F   =========================
+        systemtest-prereqs has been processed, and set to: /home/admin/externalDependency/system_libRetrieving amount of free space on drive containing /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveMultiThrdLoad_5m_0
+        There is 50849 Mb free
+        STF 15:54:37.516 - ==================   G E N E R A T I O N   ==================
+        STF 15:54:37.517 - Checking JVM: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image
+        STF 15:54:37.517 - Starting process to generate scripts: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image/bin/java  -Dlog4j.skipJansi=true -Djava.system.class.loader=net.adoptopenjdk.stf.runner.StfClassLoader -Dload.agent.path=/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../../stf.load/bin/stf.load.jar -classpath /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm-commons.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-api.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-core.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../bin net.adoptopenjdk.stf.runner.StfRunner -properties "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveMultiThrdLoad_5m_0/20251029-155437-MauveMultiThrdLoad/stf_parameters.properties, , /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/config/stf.properties" -testDir "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveMultiThrdLoad_5m_0/20251029-155437-MauveMultiThrdLoad"
+        GEN 15:54:37.885 - Found test. Project: 'openjdk.test.load' class: 'MauveMultiThrdLoad.class' Dir: '/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin'
+        GEN 15:54:37.889 - Found test. Project: 'openjdk.test.load' class: 'net.adoptopenjdk.stf.MauveMultiThrdLoad'
+        GEN Classpath directories used by project 'openjdk.test.load': 
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.load/bin
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-api.jar
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-core.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/junit.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/hamcrest-core.jar
+        GEN 15:54:37.963 - Using Mode NoOptions. Values = ''
+        GEN stderr Exception in thread "main" net.adoptopenjdk.stf.StfException: Note: file 'mauve/mauve.jar' could not be found in any of the supplied test roots: '/home/admin/externalDependency/system_lib'
+        GEN stderr 	at net.adoptopenjdk.stf.environment.FileRef.findFile(FileRef.java:170)
+        GEN stderr 	at net.adoptopenjdk.stf.environment.StfEnvironmentCore.findPrereqFile(StfEnvironmentCore.java:271)
+        GEN stderr 	at net.adoptopenjdk.stf.extensions.core.StfEnvironment.findPrereqFile(StfEnvironment.java:100)
+        GEN stderr 	at net.adoptopenjdk.stf.MauveMultiThrdLoad.execute(MauveMultiThrdLoad.java:37)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        GEN stderr 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        GEN stderr 	at java.lang.reflect.Method.invoke(Method.java:498)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.runStage(StfRunner.java:549)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.executeTest(StfRunner.java:297)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.main(StfRunner.java:69)
+        Generation failed
+        -----------------------------------
+        MauveMultiThrdLoad_5m_0_FAILED
+    duration_ms: 510
+  ...
+not ok 20 - MauveMultiThrdLoad_5m_1
+  ---
+    output:
+      |
+        ===============================================
+        ===============================================
+        MauveMultiThrdLoad_5m_1 Start Time: Wed Oct 29 15:54:37 2025 Epoch Time (ms): 1761724477998
+        variation: Mode650
+        JVM_OPTIONS:  -XX:-UseCompressedOops 
+        
+        TEST SETUP:
+        Nothing to be done for setup.
+        
+        TESTING:
+        STF 15:54:38.036 - =========================   S T F   =========================
+        systemtest-prereqs has been processed, and set to: /home/admin/externalDependency/system_libRetrieving amount of free space on drive containing /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveMultiThrdLoad_5m_1
+        There is 50849 Mb free
+        STF 15:54:38.039 - ==================   G E N E R A T I O N   ==================
+        STF 15:54:38.039 - Checking JVM: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image
+        STF 15:54:38.040 - Starting process to generate scripts: /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jdkbinary/j2sdk-image/bin/java  -Dlog4j.skipJansi=true -Djava.system.class.loader=net.adoptopenjdk.stf.runner.StfClassLoader -Dload.agent.path=/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../../stf.load/bin/stf.load.jar -classpath /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//asm/asm-commons.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-api.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/../../externalDependency/system_lib//log4j/log4j-core.jar:/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/scripts/../bin net.adoptopenjdk.stf.runner.StfRunner -properties "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveMultiThrdLoad_5m_1/20251029-155438-MauveMultiThrdLoad/stf_parameters.properties, , /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/config/stf.properties" -testDir "/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/aqa-tests/TKG/../TKG/output_17617220402875/MauveMultiThrdLoad_5m_1/20251029-155438-MauveMultiThrdLoad"
+        GEN 15:54:38.384 - Found test. Project: 'openjdk.test.load' class: 'MauveMultiThrdLoad.class' Dir: '/home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin'
+        GEN 15:54:38.388 - Found test. Project: 'openjdk.test.load' class: 'net.adoptopenjdk.stf.MauveMultiThrdLoad'
+        GEN Classpath directories used by project 'openjdk.test.load': 
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/aqa-systemtest/openjdk.test.load/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.core/bin
+        GEN   /home/admin/workspace/Test_openjdk8_dragonwell_sanity.system_x86-64_linux/jvmtest/system/STF/stf.load/bin
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-api.jar
+        GEN   /home/admin/externalDependency/system_lib/log4j/log4j-core.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/junit.jar
+        GEN   /home/admin/externalDependency/system_lib/junit/hamcrest-core.jar
+        GEN 15:54:38.461 - Using Mode NoOptions. Values = ''
+        GEN stderr Exception in thread "main" net.adoptopenjdk.stf.StfException: Note: file 'mauve/mauve.jar' could not be found in any of the supplied test roots: '/home/admin/externalDependency/system_lib'
+        GEN stderr 	at net.adoptopenjdk.stf.environment.FileRef.findFile(FileRef.java:170)
+        GEN stderr 	at net.adoptopenjdk.stf.environment.StfEnvironmentCore.findPrereqFile(StfEnvironmentCore.java:271)
+        GEN stderr 	at net.adoptopenjdk.stf.extensions.core.StfEnvironment.findPrereqFile(StfEnvironment.java:100)
+        GEN stderr 	at net.adoptopenjdk.stf.MauveMultiThrdLoad.execute(MauveMultiThrdLoad.java:37)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+        GEN stderr 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+        GEN stderr 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        GEN stderr 	at java.lang.reflect.Method.invoke(Method.java:498)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.runStage(StfRunner.java:549)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.executeTest(StfRunner.java:297)
+        GEN stderr 	at net.adoptopenjdk.stf.runner.StfRunner.main(StfRunner.java:69)
+        Generation failed
+        -----------------------------------
+        MauveMultiThrdLoad_5m_1_FAILED
+    duration_ms: 496
+  ...
+ok 21 - MauveMultiThrdLoad_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 22 - LambdaLoadTest_HS_5m_0
+  ---
+    duration_ms: 306031
+  ...
+ok 23 - LambdaLoadTest_HS_5m_1
+  ---
+    duration_ms: 304107
+  ...
+ok 24 - LambdaLoadTest_HS_5m_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 25 - ParallelStreamsLoadTest_HS_0
+  ---
+    duration_ms: 9798
+  ...
+ok 26 - ParallelStreamsLoadTest_HS_1
+  ---
+    duration_ms: 11240
+  ...
+ok 27 - ParallelStreamsLoadTest_HS_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 28 - TestJlmLocal_0
+  ---
+    duration_ms: 26407
+  ...
+ok 29 - TestJlmLocal_1
+  ---
+    duration_ms: 26512
+  ...
+ok 30 - TestJlmLocal_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 31 - TestJlmRemoteClassAuth_0
+  ---
+    duration_ms: 637875
+  ...
+ok 32 - TestJlmRemoteClassAuth_1
+  ---
+    duration_ms: 638109
+  ...
+ok 33 - TestJlmRemoteClassAuth_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 34 - TestJlmRemoteClassNoAuth_0
+  ---
+    duration_ms: 636855
+  ...
+ok 35 - TestJlmRemoteClassNoAuth_1
+  ---
+    duration_ms: 636985
+  ...
+ok 36 - TestJlmRemoteClassNoAuth_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 37 - TestJlmRemoteMemoryAuth_0 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 38 - TestJlmRemoteMemoryAuth_1 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 39 - TestJlmRemoteMemoryAuth_2 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 40 - TestJlmRemoteMemoryNoAuth_0 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 41 - TestJlmRemoteMemoryNoAuth_1 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 42 - TestJlmRemoteMemoryNoAuth_2 # skip (disabled)
+  ---
+    duration_ms: 9
+  ...
+ok 43 - TestJlmRemoteNotifierProxyAuth_0
+  ---
+    duration_ms: 137653
+  ...
+ok 44 - TestJlmRemoteNotifierProxyAuth_1
+  ---
+    duration_ms: 137786
+  ...
+ok 45 - TestJlmRemoteNotifierProxyAuth_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 46 - TestJlmRemoteThreadAuth_0
+  ---
+    duration_ms: 645922
+  ...
+ok 47 - TestJlmRemoteThreadAuth_1
+  ---
+    duration_ms: 645809
+  ...
+ok 48 - TestJlmRemoteThreadAuth_2 # skip
+  ---
+    duration_ms: 7
+  ...
+ok 49 - TestJlmRemoteThreadNoAuth_0
+  ---
+    duration_ms: 644123
+  ...
+ok 50 - TestJlmRemoteThreadNoAuth_1
+  ---
+    duration_ms: 644494
+  ...
+ok 51 - TestJlmRemoteThreadNoAuth_2 # skip
+  ---
+    duration_ms: 7
+  ...
